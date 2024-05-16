@@ -2,7 +2,8 @@
 
 // TODO: Add a comment indicating how this file fits into the MVC framework.
 // TODO: What is it responsible for handling?
-
+// This file is a model and it is responsible for handling the dish model
+// It is responsible for setting up the Dish model
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
